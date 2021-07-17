@@ -23,11 +23,6 @@ class MyApp extends StatelessWidget {
           //backgroundColor: Colors.white,
         ),
         drawer: WDDrawer(),
-        body: Center(
-          child: Container(
-            child: Text('Dictionary Wiki dominicana'),
-          ),
-        ),
         bottomNavigationBar: WDNavBar(),
       ),
     );
